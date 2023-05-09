@@ -13,7 +13,7 @@ const CardContent: React.FC<CardContentProps> = ({title, content, link}) => {
                 <div className={styles.content}>
                     <h2>{title}</h2>
                     <p>{content}</p>
-                    <a href={"#"}>Reservar</a>
+                    <a target={"_blank"} href={link}>Reservar</a>
                 </div>
             </div>
         </>

@@ -17,8 +17,8 @@ export default function Navbar() {
                             <Link href="/">
                                 <a>Reservas</a>
                             </Link>
-                            <Link href="/">
-                                <a>Carta del Chef</a>
+                            <Link href="https://www.moradaancestral.com/wp-content/uploads/2023/01/Carta-del-chef_compressed.pdf">
+                                <a target={"_blank"}>Carta del Chef</a>
                             </Link>
                         </div>
                     </div>

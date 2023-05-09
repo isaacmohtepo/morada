@@ -12,7 +12,7 @@ export default function Menu() {
                             trabajadores de la tierra, pescadores, bosques y selvas nos inspiraron para crear platos
                             memorables llenos de tradición y magia culinaria.
                         </p>
-                        <a href="#">Ver Menú</a>
+                        <a target={"_blank"} href="https://qr.precompro.com/?source=moradaancestral.precompro.com">Ver Menú</a>
                     </div>
                     <div className={styles.cardGeneral}>
                         <Card img={"entrada-menu"} alt={"Entrada menú"}/>

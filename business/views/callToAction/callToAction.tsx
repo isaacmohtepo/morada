@@ -7,7 +7,7 @@ export default function CallToAction() {
                 <hr/>
                 <div className={styles.title}>
                     <span>Haz tu reserva</span>
-                    <a href="#">Reservar</a>
+                    <a target={"_blank"} href="https://moradaancestral.precompro.com/select/">Reservar</a>
                 </div>
                 <hr/>
 

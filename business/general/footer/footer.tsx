@@ -11,7 +11,7 @@ export default function Footer() {
                     <div className={styles.title}>
                         <h2>¡Ven a Morada Ancestral!</h2>
                         <p>Y descubre la riqueza culinaria de Colombia en cada bocado.</p>
-                        <a href="#">Reservar</a>
+                        <a target={"_blank"} href="https://moradaancestral.precompro.com/select/">Reservar</a>
                     </div>
 
                     <div className={styles.contact}>
