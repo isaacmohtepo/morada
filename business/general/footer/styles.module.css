@@ -1,0 +1,153 @@
+.footer {
+    position: relative;
+    background-image: url("/images/fondos/morada-ancestral-footer.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 40px;
+}
+
+.general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.general:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #212121;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.logo {
+    position: relative;
+    z-index: 2;
+}
+
+.title {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 2;
+}
+
+.title h2 {
+    font-size: 80px;
+    color: #ffffff;
+}
+
+
+.title p {
+    font-size: 33px;
+    color: #ffffff;
+}
+
+.title a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 45px;
+    border: solid 2px #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 30px;
+    transition: 1s;
+}
+
+.title a:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.contact {
+    position: relative;
+    display: flex;
+    gap: 40px;
+    z-index: 2;
+}
+
+.contact .item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact .item i {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+
+.contact .item span {
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.contact .item {
+    width: 200px;
+}
+
+.contact .social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact .social i {
+    font-size: 22px;
+    color: #ffffff;
+    border: solid 2px #ffffff;
+    padding: 8px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.contact .social i:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.apoyoGrafico{
+    position: relative;
+    z-index: 2;
+}
+
+.apoyoGrafico img{
+    max-width: 100%;
+}
+
+@media (max-width: 1400px) {
+    .title h2 {
+        font-size: 60px;
+    }
+
+    .title p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 700px) {
+    .contact{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title h2 {
+        font-size: 40px;
+    }
+
+    .title p {
+        font-size: 18px;
+    }
+}
+

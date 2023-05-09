@@ -1,0 +1,142 @@
+.section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    padding: 0 40px;
+}
+.single img{
+    max-width: 100%;
+}
+.general{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 90%;
+}
+.content{
+    margin-top: 150px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+}
+.title img{
+    max-width: 100%;
+    width: 100px;
+}
+.title h3{
+    font-size: 75px;
+    color: #383338;
+}
+
+.title h2{
+    font-size: 130px;
+    color: #383338;
+    line-height: 120px;
+    max-width: 550px;
+}
+
+.card{
+    position: relative;
+    margin-top: 100px;
+    margin-left: -200px;
+    padding: 40px;
+    background-color: #383338;
+    width: 500px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.card p{
+    color: #fff;
+    font-size: 28px;
+}
+
+.card a{
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.card a:hover{
+    background-color: #fff;
+    color: #383338;
+}
+
+@media (max-width: 1400px) {
+    .title h3{
+        font-size: 50px;
+        color: #383338;
+    }
+    .title h2{
+        font-size: 90px;
+        color: #383338;
+        line-height: 90px;
+        max-width: 550px;
+    }
+    .card{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .content{
+        margin-top: 100px;
+    }
+
+    .title h3{
+        font-size: 30px;
+        color: #383338;
+    }
+    .title h2{
+        font-size: 70px;
+        color: #383338;
+        line-height: 70px;
+        max-width: 550px;
+    }
+
+    .card p{
+        font-size: 24px;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .card p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .general{
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+  .card{
+      margin-left: 0;
+      width: 100%;
+  }
+
+    .title h2{
+        font-size: 50px;
+        line-height: 70px;
+    }
+}
+
+@media (max-width: 550px) {
+    .section{
+        padding: 0;
+    }
+    .general{
+        width: 80%;
+    }
+}

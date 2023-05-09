@@ -1,0 +1,22 @@
+.card_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+@media (max-width: 991px) {
+    .card_1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card_2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
